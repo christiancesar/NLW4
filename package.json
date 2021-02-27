@@ -2,11 +2,11 @@
   "name": "NWL4",
   "version": "1.0.0",
   "main": "index.js",
-  "author": "Christian Cesar <37115113+christiancesar@users.noreply.github.com>",
   "license": "MIT",
   "scripts": {
     "dev:server": "ts-node-dev --transpile-only --ignore-watch  node-modules src/server.ts",
-    "typeorm": " ts-node-dev node_modules/typeorm/cli.js"
+    "typeorm": " ts-node-dev node_modules/typeorm/cli.js",
+    "test": "jest"
   },
   "dependencies": {
     "express": "^4.17.1",
@@ -16,8 +16,11 @@
     "uuid": "^8.3.2"
   },
   "devDependencies": {
-    "@types/uuid": "^8.3.0",
     "@types/express": "^4.17.11",
+    "@types/jest": "^26.0.20",
+    "@types/uuid": "^8.3.0",
+    "jest": "^26.6.3",
+    "ts-jest": "^26.5.2",
     "ts-node-dev": "^1.1.1",
     "typescript": "^4.1.5"
   }
