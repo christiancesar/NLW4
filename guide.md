@@ -33,6 +33,9 @@
     √ Automatically clear mock calls and instances between every test? ... yes
    ```
   `yarn add ts-jest -D` -> trabalha com typescript nos testes
+
+  ### Supertest -> Simula um servidor 
+  `yarn add supertest @types/supertest -D`
   
 # Structure
 
